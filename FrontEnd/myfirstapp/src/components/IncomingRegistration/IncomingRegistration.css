@@ -1,0 +1,191 @@
+.inreg--header {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2vh 0 3vh 0;
+}
+
+.inreg--btns {
+  display: flex;
+  margin-right: 8vw;
+  align-items: center;
+}
+
+.inreg--btn {
+  box-shadow: 0 3px 5px 2px rgba(111, 132, 248, 0.3);
+}
+
+.inreg--header-name {
+  padding: 0.5vh 0 0.5vh 0;
+  font-size: 2vw;
+  font-weight: bolder;
+  color: #0066ff;
+  margin-right: 14vw;
+}
+
+.inreg--table {
+  margin: 0 3vw;
+  height: 75vh;
+  overflow: auto;
+}
+
+.inreg--approved-text {
+  color: #9df656;
+  font-weight: bolder;
+}
+
+.inreg--pending-text {
+  color: #ebda42;
+  font-weight: bolder;
+}
+
+.inreg--sold-text {
+  color: #ec5a41;
+  font-weight: bolder;
+}
+
+.inreg--cover {
+  width: 5vw;
+}
+
+.inreg--page {
+  overflow: hidden;
+}
+
+.inreg--search-book-dialog-title {
+  font-size: 1.5vw;
+  font-weight: bolder;
+  color: #0066ff;
+}
+
+.inreg--highlight {
+  font-weight: bolder;
+  color: #0066ff;
+}
+
+.inreg--dialog-2-content {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.inreg--dialog-2-content-part {
+  flex: 1;
+}
+
+.inreg--dialog-2-content-pic {
+  width: 35vw;
+  display: flex;
+}
+
+.inreg--book-cover {
+  width: 15vw;
+  margin: 0 2vw 1vw 0;
+}
+
+.inreg--book-details {
+  color: #0066ff;
+  font-size: 1.25vw;
+  margin: 0 0 1vw 0;
+}
+
+.inreg--book-info {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 0 1vw 0;
+}
+
+.inreg--book {
+  flex: 1;
+  margin: 0 2vw 1vw 0;
+}
+
+.inreg--inputFields {
+  align-items: center;
+}
+
+.inreg--align-label-and-field {
+  display: flex;
+  width: 21vw;
+  justify-content: flex-start;
+}
+
+.inreg--align-label-and-field-term {
+  margin: 1vh 0 3vh 0;
+  width: 20vw;
+}
+
+.inreg--label {
+  font-weight: bolder;
+  padding: 10px 0 0 0;
+}
+
+.inreg--label-term {
+  font-weight: bolder;
+  color: #0066ff;
+}
+
+.inreg--fields {
+  padding: 5px 5px;
+  margin: 5px 0 5px 15px;
+  display: inline-block;
+  border-bottom: 2px solid #06f;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.inreg--label-radio {
+  font-weight: bolder;
+  padding: 10px 0 0 10px;
+  width: 5vw;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.inreg--radios {
+  display: flex;
+}
+
+.inreg--TnC {
+  margin: 10vh 0 5vh 0;
+}
+
+.inreg--dialog-form {
+  margin-top: 5vh;
+}
+
+.inreg--alignBtn {
+  text-align: end;
+  margin-right: 5vw;
+}
+
+.inreg--btn-text {
+  font-size: 125%;
+  font-weight: bolder;
+  color: #06f;
+}
+
+.inreg--submitBtn {
+  color: #06f;
+  padding: 0 3%;
+  box-shadow: 0 3px 5px 2px rgba(111, 132, 248, 0.3);
+}
+
+.inreg--reg-details {
+  color: #0066ff;
+  font-size: 1.25vw;
+  margin: 0 0 1vw 0;
+}
+
+.inreg--reg-info {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 0 1vw 0;
+}
+
+.inreg--reg-details-box {
+  display: flex;
+}
+
+.inreg--reg-column {
+  width: 20vw;
+}

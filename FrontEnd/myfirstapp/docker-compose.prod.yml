@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: front-prod
+    image: front-prod
+    build:
+      context: .
+      target: production
+    networks:
+      - sept-network
+
+networks:
+  sept-network:
+    external: true
+    name: sept

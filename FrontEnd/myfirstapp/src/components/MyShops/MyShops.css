@@ -1,0 +1,47 @@
+.myshop--header {
+  display: flex;
+  justify-content: center;
+  margin: 2vh 0 3vh 30vw;
+}
+
+.myshop--btns {
+  display: flex;
+  margin-right: 8vw;
+  align-items: center;
+}
+
+.myshop--btn {
+  box-shadow: 0 3px 5px 2px rgba(111, 132, 248, 0.3);
+}
+
+.myshop--header-name {
+  padding: 0.5vh 0 0.5vh 0;
+  font-size: 2vw;
+  font-weight: bolder;
+  color: #0066ff;
+  margin-right: 14vw;
+}
+
+.myshop--table {
+  margin: 0 3vw;
+  height: 75vh;
+  overflow: auto;
+}
+
+.myshop--open-text {
+  color: #9df656;
+  font-weight: bolder;
+}
+
+.myshop--close-text {
+  color: #fd0707;
+  font-weight: bolder;
+}
+
+.myshop--cover {
+  width: 5vw;
+}
+
+.myshop--page {
+  overflow: hidden;
+}
